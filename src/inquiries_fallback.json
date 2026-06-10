@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "6a281cfaebab7b0877a3773b",
+    "createdAt": "2026-06-09T14:02:34.993Z",
+    "type": "newsletter",
+    "email": "aayush6b12@gmail.com"
+  },
+  {
+    "_id": "6a281f62957ef34f770599ef",
+    "createdAt": "2026-06-09T14:12:50.601Z",
+    "type": "contact",
+    "email": "nitinrana2454@gmail.com",
+    "name": "aayush",
+    "subject": "header",
+    "message": "fcvbnnnk"
+  }
+]
