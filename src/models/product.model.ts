@@ -9,7 +9,7 @@ export interface ILocalizedDetails {
 export interface IProduct {
   sku: string;
   price: number;
-  category: 'kurtis' | 'dailywear' | 'modern' | 'jewelry';
+  category: string;
   materials: string[];
   sizes: string[];
   images: string[];
@@ -30,8 +30,7 @@ const productSchema = new Schema<IProduct>({
   price: { type: Number, required: true },
   category: { 
     type: String, 
-    required: true, 
-    enum: ['kurtis', 'dailywear', 'modern', 'jewelry'] 
+    required: true
   },
   materials: [{ type: String }],
   sizes: [{ type: String }],

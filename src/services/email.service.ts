@@ -38,7 +38,7 @@ export async function sendQueryEmail(name: string, email: string, subject: strin
     const mailOptions = {
       from: `"${name}" <${email}>`,
       to: 'aayush6b12@gmail.com',
-      subject: `[Sita & Seta Query] ${subject}`,
+      subject: `[Casa dei Regali Query] ${subject}`,
       text: `Hai ricevuto una nuova richiesta da:
 Nome: ${name}
 Email: ${email}
@@ -86,10 +86,10 @@ export async function sendOrderEmail(customerEmail: string, items: any[], total:
     `).join('');
 
     const mailOptions = {
-      from: '"Sita & Seta Orders" <orders@sitaseta.it>',
+      from: '"Casa dei Regali Orders" <orders@casadeiregali.it>',
       to: 'aayush6b12@gmail.com',
       cc: customerEmail,
-      subject: `[Sita & Seta Order] Nuova Richiesta d'Ordine - €${total.toFixed(2)}`,
+      subject: `[Casa dei Regali Order] Nuova Richiesta d'Ordine - €${total.toFixed(2)}`,
       text: `Nuova richiesta d'ordine da parte di: ${customerEmail}
 Totale: €${total.toFixed(2)}
 Controlla il pannello amministrativo per maggiori dettagli.`,
