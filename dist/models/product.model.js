@@ -12,8 +12,7 @@ const productSchema = new mongoose_1.Schema({
     price: { type: Number, required: true },
     category: {
         type: String,
-        required: true,
-        enum: ['kurtis', 'dailywear', 'modern', 'jewelry']
+        required: true
     },
     materials: [{ type: String }],
     sizes: [{ type: String }],
