@@ -131,4 +131,17 @@ router.post('/orders', async (req, res) => {
 // Admin / Dashboard inquiries
 router.get('/inquiries', getInquiries);
 
+// Admin login route
+router.post('/admin/login', (req, res) => {
+  const { email, password } = req.body;
+  const adminEmail = process.env.ADMIN_EMAIL || 'aayush6b12@gmail.com';
+  const adminPassword = process.env.ADMIN_PASSWORD || 'soniKmno4@';
+
+  if (email === adminEmail && password === adminPassword) {
+    return res.json({ success: true, message: 'Login successful' });
+  } else {
+    return res.status(401).json({ success: false, message: 'Invalid credentials' });
+  }
+});
+
 export default router;
