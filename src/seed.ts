@@ -162,28 +162,7 @@ const sampleProducts: Partial<IProduct>[] = [
       tags: ['bag', 'embroidery', 'mirror', 'accessories']
     }
   },
-  {
-    sku: 'ETH-BAN-009',
-    price: 149.99,
-    category: 'ethnic-indian',
-    materials: ['Banarasi Silk', 'Zari Border'],
-    sizes: ['M', 'L', 'XL'],
-    images: [
-      'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=800'
-    ],
-    stock: 8,
-    featured: true,
-    it: {
-      name: 'Lehenga Reale in Seta Banarasi',
-      description: 'Uno splendido completo Lehenga tradizionale ricavato da autentica seta Banarasi, ornato da ricami in vero filo d\'oro (Zari). Il perfetto connubio di fasto imperiale e stile senza tempo.',
-      tags: ['seta', 'banarasi', 'lehenga', 'etnico']
-    },
-    en: {
-      name: 'Royal Banarasi Lehenga Set',
-      description: 'A gorgeous traditional Lehenga set crafted from authentic Banarasi silk, adorned with real gold thread (Zari) borders. The perfect marriage of royal heritage and timeless style.',
-      tags: ['silk', 'banarasi', 'lehenga', 'ethnic']
-    }
-  },
+
   {
     sku: 'JW-ANK-010',
     price: 29.99,
@@ -206,28 +185,7 @@ const sampleProducts: Partial<IProduct>[] = [
       tags: ['anklet', 'silver', 'ethnic', 'jewelry']
     }
   },
-  {
-    sku: 'JW-HDC-011',
-    price: 39.99,
-    category: 'jewelry-handcuffs',
-    materials: ['Brass', 'Kundan Stones'],
-    sizes: ['One Size'],
-    images: [
-      'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&q=80&w=800'
-    ],
-    stock: 15,
-    featured: false,
-    it: {
-      name: 'Bracciale Rigido Kundan Handcuff',
-      description: 'Bracciale rigido tipo cuff impreziosito da tradizionali pietre Kundan incastonate a mano. Regolabile ed elegante, ideale per dare luce a qualsiasi abbinamento.',
-      tags: ['bracciale', 'rigido', 'kundan', 'gioielli']
-    },
-    en: {
-      name: 'Kundan Cuff Handcuff Bracelet',
-      description: 'Traditional Kundan cuff bracelet adorned with hand-set glass stones. Adjustable and elegant, perfect for adding sparkle to any look.',
-      tags: ['bracelet', 'cuff', 'kundan', 'jewelry']
-    }
-  },
+
   {
     sku: 'JW-BRC-012',
     price: 19.99,
